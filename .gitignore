@@ -1,0 +1,62 @@
+# ==============================
+# 개인 설정 파일 (보안 - 커밋 금지)
+# ==============================
+config.py          # 개인 경로(SEARCH_ROOTS) 포함 → config.example.py 참고
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+
+# ==============================
+# 환경변수 / 비밀키
+# ==============================
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+*.pem
+
+# ==============================
+# 가상환경
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# IDE / 에디터
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==============================
+# 로그 / 임시 파일
+# ==============================
+*.log
+*.tmp
+*.bak
